@@ -27,5 +27,8 @@ var rectangleArea = calculateRectangleArea(4, 8);
 // Calculate the total area
 var totalArea = circleArea + squareArea + triangleArea + rectangleArea;
 
+// Round the total area to the 6th decimal place
+var roundedTotalArea = totalArea.toFixed(6);
+
 // Print the total area to the console
-console.log("Total Area: " + totalArea);
+console.log("Total Area: " + roundedTotalArea);
